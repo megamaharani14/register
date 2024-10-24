@@ -38,7 +38,7 @@ class _ProfilePageState extends State<ProfilePage> {
             TextButton(
               child: Text("Tutup"),
               onPressed: () {
-                Navigator.of(context).pop(); // Tutup popup
+                Navigator.of(context).pop(); 
               },
             ),
           ],

@@ -1,16 +1,31 @@
 # register
-
 A new Flutter project.
 
-## Getting Started
+Tampilan awal login_page.dart:
+![Screenshot register](assets/login_page.png)
+Terdapat email dan password untuk login, jika tidak memiliki akun bisa register terlebih dahulu.
 
-This project is a starting point for a Flutter application.
+Tampilan register_page.dart:
+![Screenshot register](assets/register.png)
+Dalam register page ini bisa input nama lengkap, email, password, confirm password dan tombol register.
 
-A few resources to get you started if this is your first Flutter project:
+Jika tombol register diklik nanti akan muncul pop up selama 200ms dengan tulisan "pendaftaran berhasil dilakukan"
+![Screenshot register](assets/popup_register.png)
+ 
+berikut ini adalah code untuk pop up
+![Screenshot register](assets/code.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Setelah register, nanti akan diarahkan ke login_page.dart, lalu isi email dan passowrd untuk login.
+![Screenshot register](assets/login.png)
+
+
+Nanti akan muncul pop up yang bertuliskan "selamat datang dan nama" selama 200ms 
+![Screenshot register](assets/popup_login.png)
+
+berikut ini adalah code untuk pop upnya
+![Screenshot register](assets/code1.png)
+
+ketika diklik tombol keluar maka akan destroy ke halaman utama
+![Screenshot register](assets/destroy.png)
+Dalam onPressed: (){ SystemNavigator.pop();}: berfungsi untuk menutup aplikasi atau menutup layar, yang dimana di dalam tombol tersebut terdapat teks keluar dan berada di tengah.
